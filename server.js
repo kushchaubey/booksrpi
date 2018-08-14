@@ -35,7 +35,7 @@ app.post('/addbook',(req,res)=>{
           if(err){
                console.log("could not save the data error occured" +err);
           }else{
-              res.send(`${req.body.title} has been saved`);
+              res.jsonp(`${req.body.title} has been saved`);
           }
       }); 
 });
