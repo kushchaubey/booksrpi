@@ -1,0 +1,50 @@
+body{
+    background:#edf3ff;
+}
+.header{
+    margin-top: 50px;
+}
+.pannel ,.add-pannel{
+    width: 700px;
+    margin: 0 auto;
+}
+.add-pannel{
+    background-color:rgb(117, 117, 117);
+    margin-top: 20px;
+    padding-top:5px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    color:#fff;
+
+}
+#bookstable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#bookstable td, #bookstable th {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+#bookstable tr:nth-child(even){background-color: #f2f2f2;}
+
+#bookstable tr:hover {background-color: #ddd;}
+
+#bookstable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+#addbtn.btn-primary {
+    color: #fff;
+    background-color: #4CAF50;;
+    border-color: #4CAF50;;
+    margin-top: 20px;
+}
